@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Joe Ejiro Personal Portfolio Website</title>
+  <!-- custom css link -->
+  <link rel="shortcut icon" href="image/logo.png" type="image/x-icon">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+
+  <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+  <!-- header -->
+  <div id="preloader">
+    <div class="loader"></div>
+  </div>
+
+  <header class="header-area">
+    <a href="/index.html" class="logo"><img src="/image/logo.png" alt="logo"></a>
+    <div class="bx bx-menu" id="menu-icon"></div>
+
+    <ul class="nav-bar">
+      <li><a href="/index.html">Home</a></li>
+      <li><a href="#about">About Me</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#portfolio">My Portfolio</a></li>
+      <li><a href="#Testimonial">Testimonial</a></li>
+      <li><a href="#contacts">Contacts</a></li>
+      <li><a href="/blog.html">Blog</a></li>
+    </ul>
+    <label class="switch">
+
+      <input type="checkbox" class="dark-mode" onclick="myfunction()">
+      <span class="slider"></span>
+
+    </label>
+  </header>
+
+  <!-- home -->
+  <section class="home" id="home">
+    <div class="home-b"></div>
+    <div class="home-text">
+      <h4>Hello</h4>
+      <h1>I'M Joe <br> Ej<span>iro</span></h1>
+      <h3>Software Developer</h3>
+      <a href="#contacts" class="btn">Hire Me</a>
+    </div>
+  </section>
+
+  <!-- about -->
+  <section class="about" id="about">
+    <div class="about-img">
+      <img src="./image/aboutme.png" alt="about-img">
+    </div>
+
+    <div class="about-text">
+      <h2>About Me</h2>
+      <h4>Hi, I'm Here To Help Your Project</h4>
+      <p>My Name is Joe Ejiro i love coding. As a profressional i'm a student studying in Federal University of
+        Petroleum and Resources Nigeria.
+        I spend my days learning e-language and new ideas. I'm focusing more on HTML, CSS, JAVASCRIPT, REACT.JS,NODE.JS,
+        REACT-NATIVE and PYTHON.</p>
+      <div class="about-gri">
+        <div class="about-in">
+          <h5>1. Problem Solving</h5>
+        </div>
+
+        <div class="about-in">
+          <h5>2. Creative idea</h5>
+        </div>
+
+        <div class="about-in">
+          <h5>3. Search a lot</h5>
+        </div>
+
+        <div class="about-in">
+          <h5>4. High Quality</h5>
+        </div>
+
+      </div>
+      <a href="tel:+2349067390146" class="btn">Contact Me</a>
+
+    </div>
+  </section>
+
+  <!-- services -->
+  <section id="services" class="services">
+    <div class="main-text">
+      <h2>My Services</h2>
+      <h4>Better Designs, Better Experience</h4>
+    </div>
+
+    <div class="services-content">
+      <div class="box">
+        <img src="./image/cctv.png" alt="mobi-app-pic">
+        <h3>Cctv Installations</h3>
+        <p>With 2years of Experience, i install, link, configure and test CCTV cameras with right Quality and Quantity.
+          Feel free to contact me for information</p>
+      </div>
+
+      <div class="box">
+        <img src="./image/web-design.png" alt="web-design-pic">
+        <h3>Mobile & Website Design</h3>
+        <p>With years of Experience, i've helped to make many of my
+          client's drive business growth through good web design.
+          Feel free to contact me for information</p>
+      </div>
+
+      <div class="box">
+        <img src="./image/video-edit.png" alt="video-edit-pic">
+        <h3>Video Editing</h3>
+        <p> i'm a creative thinker. My video editing services include; cutting, adding
+          transitions, sound mixing and so on.
+          Feel free to contact me for information</p>
+      </div>
+
+      <div class="box">
+        <img src="./image/web-dev.png" alt="web-dev-pic">
+        <h3>Web Development</h3>
+        <p>With years of Experience, i help create all type of web-based software and great experience for web users.
+          Feel free to contact me for information</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- portfolio -->
+  <section id="portfolio" class="portfolio">
+    <div class="main-text">
+      <h2>My Portfolio</h2>
+      <h4>Some Of My Distinguished Works</h4>
+    </div>
+
+    <div class="portfolio-content">
+      <div class="row">
+        <img src="./image/portfolio1.png" alt="">
+        <div class="main-row">
+          <div class="row-text">
+            <h6>Development</h6>
+          </div>
+          <div class="row-icon">
+            <i class='bx bx-heart'></i>
+          </div>
+        </div>
+        <a href="#">
+          <h3>Beautiful Hair Salon UX/UI Interface </h3>
+        </a>
+      </div>
+
+      <div class="row">
+        <img src="./image/portfolio2.png" alt="">
+        <div class="main-row">
+          <div class="row-text">
+            <h6>Development</h6>
+          </div>
+          <div class="row-icon">
+            <i class='bx bx-heart'></i>
+          </div>
+        </div>
+        <a href="#">
+          <h3>Beautiful Portfolio UI/UX Interface </h3>
+        </a>
+      </div>
+
+      <div class="row">
+        <img src="./image/portfolio3.png" alt="">
+        <div class="main-row">
+          <div class="row-text">
+            <h6>Development</h6>
+          </div>
+          <div class="row-icon">
+            <i class='bx bx-heart'></i>
+          </div>
+        </div>
+        <a href="#">
+          <h3>Beautiful TO-DO List UI/UX Interface </h3>
+        </a>
+      </div>
+
+      <div class="row">
+        <img src="./image/portfolio4.png" alt="">
+        <div class="main-row">
+          <div class="row-text">
+            <h6>Development</h6>
+          </div>
+          <div class="row-icon">
+            <i class='bx bx-heart'></i>
+          </div>
+        </div>
+        <a href="#">
+          <h3>Beautiful Hotel UI/UX Interface </h3>
+        </a>
+      </div>
+
+      <div class="row">
+        <img src="./image/portfolio5.jpg" alt="">
+        <div class="main-row">
+          <div class="row-text">
+            <h6>Development</h6>
+          </div>
+          <div class="row-icon">
+            <i class='bx bx-heart'></i>
+          </div>
+        </div>
+        <a href="#">
+          <h3>Restaurant app landing design </h3>
+        </a>
+      </div>
+
+      <div class="row">
+        <img src="./image/portfolio6.png" alt="">
+        <div class="main-row">
+          <div class="row-text">
+            <h6>Development</h6>
+          </div>
+          <div class="row-icon">
+            <i class='bx bx-heart'></i>
+          </div>
+        </div>
+        <a href="#">
+          <h3>Beautiful Calculator UI/UX design </h3>
+        </a>
+      </div>
+    </div>
+  </section>
+  <div class="hero" id="Testimonial">
+    <h1>What Our Client Say!</h1>
+
+    <div class="Indicator">
+      <span class="button  Active"></span>
+      <span class="button"></span>
+      <span class="button"></span>
+      <span class="button"></span>
+    </div>
+    <div class="Container">
+      <div class="Testimonial">
+        <div class="slide-row" id="slide">
+          <div class="slide-col">
+            <div class="user-text">
+              <p>" Joe is beyond capable at delivering outstanding results. We are impressed with his skill in web
+                design and development. "</p>
+              <h3>Sarah</h3>
+              <p>KFJTECHMEDIA Inc.</p>
+            </div>
+            <div class="user-img">
+              <img src="image/user-2.png" alt="">
+            </div>
+          </div>
+          <div class="slide-col">
+            <div class="user-text">
+              <p>" The website is built exactly as i wanted, the layout is perfect and he modify the changes i needed
+                just as i expected. Thank you very much! "</p>
+              <h3>Chris .O</h3>
+              <p>KFJMEDIA Inc.</p>
+            </div>
+            <div class="user-img">
+              <img src="image/user-1.png" alt="">
+            </div>
+          </div>
+          <div class="slide-col">
+            <div class="user-text">
+              <p>" Great communication and very fast at getting the job done. Pleasure to work with you Joe. Will
+                continue to work with you on many projects as i have done in the past.
+                Great service! "</p>
+              <h3>Josephine K.</h3>
+              <p>JTECHMEDIA Inc.</p>
+            </div>
+            <div class="user-img">
+              <img src="image/user-2.png" alt="">
+            </div>
+          </div>
+          <div class="slide-col">
+            <div class="user-text">
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam cupiditate eos odio dolor voluptatum
+                cum
+                cumque
+                laborum sapiente in nostrum, ex ut earum reprehenderit tenetur.</p>
+              <h3>Samuel .J</h3>
+              <p>KFJTECH Inc.</p>
+            </div>
+            <div class="user-img">
+              <img src="image/user-1.png" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- contact -->
+  <section class="contact" id="contacts">
+    <div class="contact-text">
+      <h2>Contact Me</h2>
+      <h4>Let's Work Together</h4>
+      <p>You can contact me with the following</p>
+      <div class="contact-list">
+        <li><a href="#">Joe - Ejiro - Nig</a></li>
+        <li><a href="mailto:jojosr001@gmail.com">jojosr001@gmail.com</a></li>
+        <li><a href="#">+234(906)-7390-146</a></li>
+      </div>
+
+      <div class="contact-icons">
+        <a href="https://www.facebook.com/kpojar.10" target="_blank"><i class='bx bxl-facebook'></i></a>
+        <a href="https://www.instagram.com/kpojar.1" target="_blank"><i class='bx bxl-instagram'></i></a>
+        <a href="https://www.linkedin.com/in/joseph-sr-165097239/" target="_blank"><i class='bx bxl-linkedin'></i></a>
+        <a href="https://twitter.com/JosephSR14"><i class='bx bxl-twitter'></i></a>
+        <a href="#" target="_blank"><i class='bx bxl-whatsapp'></i></a>
+      </div>
+    </div>
+
+    <div class="contact-form">
+      <form action="https://formsubmit.co/jojosr001@gmail.com" method="post">
+        <input type="text" placeholder="Enter Your Name" required>
+        <input type="email" placeholder="Enter Your Email" name="" id="" required>
+        <input type="text" placeholder="Enter Your Subject">
+        <textarea name="" id="" cols="30" rows="10" placeholder="Enter Your Message" required></textarea>
+        <input type="submit" value="submit" class="send">
+      </form>
+    </div>
+  </section>
+
+  <div class="last-text">
+    <p>Copyright &copy;
+      <script>
+        document.write(new Date().getFullYear());
+      </script> All rights reserved | This website is developed with <i class="fa fa-heart-o" aria-hidden="true"></i>
+      by
+      <a href="https://redjoetechportfolio.netlify.app" target="_blank">Joe
+        Ejiro</a>
+    </p>
+  </div>
+
+  <!-- scroll-top -->
+  <a href="#" class="top"><i class='bx bx-up-arrow-alt'></i></a>
+
+
+  <script src="https://unpkg.com/scrollreveal"></script>
+
+
+  <!-- custom js lunk -->
+  <script src="main.js"></script>
+
+</body>
+
+</html>
