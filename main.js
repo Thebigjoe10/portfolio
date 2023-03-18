@@ -54,20 +54,18 @@ window.onscroll = () => {
   navbar.classList.remove("active");
 };
 
-// let sr = ScrollReveal({
-//   distance: "25px",
-//   duration: 2500,
-//   reset: true,
-// });
+let sr = ScrollReveal({
+  distance: "25px",
+  duration: 2500,
+  reset: true,
+});
 
-// sr.reveal(".home-text", { delay: 190, origin: "bottom" });
-// sr.reveal(".home-b", { delay: 190, origin: "top" });
-// sr.reveal(".about, .portfolio, .contact, .hero, .services", {
-//   delay: 500,
-//   origin: "bottom",
-// });
-import ScrollReveal from "scrollreveal";
-ScrollReveal().reveal(".header-area");
+sr.reveal(".home-text", { delay: 190, origin: "bottom" });
+sr.reveal(".home-b", { delay: 190, origin: "top" });
+sr.reveal(".about, .portfolio, .contact, .hero, .services", {
+  delay: 500,
+  origin: "bottom",
+});
 
 function myfunction() {
   var element = document.body;
